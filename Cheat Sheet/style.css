@@ -1,0 +1,58 @@
+h1 {
+    font-size: 400%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border: 16px palevioletred solid;
+    background-color: aquamarine;
+    color: cornflowerblue;
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+}
+.subtitle {
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+h2 {
+    font-size: 300%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color: darkblue;
+    background-color: palevioletred;
+}
+p {
+    font-size: 125%;
+    width: 100%;
+    padding: 5px;
+    background-color: aquamarine;
+}
+img {
+    height: 100%;
+    width: 100%;
+    align-items: flex-start;
+    padding: 5px;
+    background-color: coral;
+}
+figcaption {
+    text-align: center;
+    width: 100%;
+    background-color: coral;
+}
+.column {
+    flex: 50%
+    padding: 5px;
+}
+.row {
+    display: flex;
+}
+table, th, td {
+    border: 2px coral solid;
+}
+table {
+    width: 100%;
+    background-color: cornflowerblue;
+}
